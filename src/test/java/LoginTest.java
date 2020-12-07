@@ -15,6 +15,7 @@ public class LoginTest {
 	@Test
 	public void doLogin() 
 	{
+		System.out.println("Hi");
 		driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
 		driver.findElement(By.xpath("//*[@id=\"login1\"]")).sendKeys("samit");
 		driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("122456");
