@@ -18,6 +18,13 @@ public class LoginTest {
 		driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
 		driver.findElement(By.xpath("//*[@id=\"login1\"]")).sendKeys("samit");
 		driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("122456");
+		
+	}
+	@Test
+	public void postjira()
+	{
+		System.out.println("Samshad");
+		System.out.println("Ahmad");
 	}
 	@AfterSuite
 	public void tearDown()
